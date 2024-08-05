@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#buttons{
+    margin-top:50vh;
+    display: flex;
+    gap:10px;
+    justify-content: center;
+}
+.choice{
+    height: 50px;
+    width: 70px;
+}
+.screen, .value, .result{
+    text-align:center;
+}
+.result{
+    font-size:30px;
+}
